@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>IS - 2018.2</title>
+
+  <link href='static/css/site.css' rel='stylesheet' type='text/css' />
+  <script src="../static/js/jquery-1.11.3.js"></script>
+  <script src="../static/js/criar.js"></script>
+</head>
+
+
+<body>
+<section class='container'>
+          <hgroup>
+            <h1>Infraestrtutura de Software - 2018.2</h1>
+            <h3>Lucas Filipe Vieira da Silva - BSI</h3>
+          </hgroup>
+
+
+        <div class="row">
+          <section class='col-xs-12 col-sm-6 col-md-6'>
+
+            <section>
+              <h2>Escolha as configurações de sua VM</h2>
+	<form action="/criar">
+		<div>
+      <h4>Nome da VM</h4>
+      <input type="text" name="nome" id="nome_vm"/>
+
+			<h4>CPU</h4>
+			<select name="quantidade_cpus" class="combobox" id="quantidade_cpus" >
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+			</select>
+		</div>
+		<div>
+			<h4>Memória (MB)</h4>
+			<input type="number" name="memoria" id="quantidade_memoria"/>
+		</div>
+
+  <
+	<button id="btnCriar" class="button">CRIAR</button>
+</form>
+</body>
+</html>
